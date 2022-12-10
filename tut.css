@@ -40,6 +40,10 @@ h{
   color: blanchedalmond;
 }
 
+.side_text{
+  font-family:"Alexandria" !important;
+  font-size: 1.4em !important;
+}
 .banimage{
   max-height: 40vh !important;
   max-width: 80vw !important;
