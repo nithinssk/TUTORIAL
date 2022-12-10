@@ -7,16 +7,24 @@
   font-family:"Abel" !important;
   font-size:1.2em
 }
-
-.img-fluid {
-  max-width: 100%;
-  height: auto !important;
+body,html{
+  overflow-x:hidden;
 }
 
 a:hover{
-  background-color: aqua !important;
-  color:black !important;
+  #background-color: aqua !important;
+  color:rgb(0, 242, 255) !important;
 }
+
+.bg-tron{
+  background-color: rgba(0, 118, 191, 0.655) !important;
+}
+
+.banimage{
+  max-height: 40vh !important;
+  max-width: 80vw !important;
+}
+
 @media screen and (max-width:1000px){
   navbar-brand{
     display:inline;
