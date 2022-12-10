@@ -16,6 +16,9 @@ a:hover{
   color:rgb(0, 242, 255) !important;
 }
 
+.side-bar{
+  max-width: 90% !important;
+}
 .bg-tron{
   background-color: rgba(0, 118, 191, 0.655) !important;
 }
