@@ -11,8 +11,16 @@
 }
 body,html{
   overflow-x:hidden;
+  height:100%
 }
 
+.sidecol{
+  min-height:75vh;
+}
+
+.card{
+  max-width: 50%;
+}
 a:hover{
  
   color:rgb(255, 200, 0) !important;
@@ -46,7 +54,7 @@ h{
 }
 .banimage{
   max-height: 40vh !important;
-  max-width: 80vw !important;
+  max-width: 30vw !important;
 }
 
 .bg-tron{
@@ -56,14 +64,21 @@ h{
   background-repeat: no-repeat;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:992px){
   .navbar-brand{
     display:inline;
   }
   .bg-tron{
-    #background: linear-gradient(0deg, rgb(0, 47, 64) 0%, rgb(0, 0, 0) 54%, rgb(0, 33, 42) 100%);
-    background-image: url("wp2799855_sm.jpg");
+    background: linear-gradient(0deg, rgb(0, 47, 64) 0%, rgb(0, 0, 0) 54%, rgb(0, 33, 42) 100%);
+    /* background-image: url("wp2799855_sm.jpg"); */
     background-size:cover;
+  }
+  .banimage{
+    max-height: 100vh !important;
+    max-width: 70vw !important;
+  }
+  .sidecol{
+    min-height:10vh; !important
   }
 }
 

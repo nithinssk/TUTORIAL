@@ -18,11 +18,10 @@
     <link rel="stylesheet" href="tut.css" />
   </head>
 
-  <body class="bg-image bg-tron">
+  <body class="bg-image bg-tron" >
     <header>
       <nav
-        class="navbar navbar-expand-sm navbar-dark bg-dark nav-font py-0 py-lg-2 my-0"
-        style="background-color: rgba(0, 0, 0, 0.864) !important"
+        class="navbar navbar-expand-sm navbar-dark bg-dark nav-font  py-0 py-lg-2 my-0" style="background-color:rgba(0, 0, 0, 0.864) !important;"
       >
         <div class="container-fluid">
           <ul class="navbar-nav me-auto">
@@ -34,6 +33,8 @@
               />
             </li>
           </ul>
+
+<!-- Navbar Toggler for Small Screens -->
           <button
             class="navbar-toggler border-0"
             type="button"
@@ -47,10 +48,8 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav ms-auto text-end">
-              <li class="nav-item">
-                <a class="nav-link" href="home.html">Home</a>
-              </li>
-              <li class="nav-item"><a class="nav-link">Cast</a></li>
+              <li class="nav-item"><a class="nav-link" >Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="cast.html">Cast</a></li>
               <li class="nav-item"><a class="nav-link">Crew</a></li>
             </ul>
           </div>
@@ -58,188 +57,91 @@
       </nav>
     </header>
     <main>
-      <div class="row text-dark justify-content-between align-items-center">
-        <div class="col-lg-2 bg-tron-dark rounded h-100 nav-font">
-          <div class="mx-auto my-5 side-bar container rounded bg-tron-light">
+      <div class="row  text-dark justify-content-between  align-items-center">
+
+<!-- Secondary Navigation #1 -->
+        <div class="col-lg-2 sidecol bg-tron-dark rounded nav-font d-flex align-items-center py-5">
+          <div class="mx-auto my-auto  side-bar container rounded bg-tron-light">
             <ul class="navbar-nav w-100 text-center text-white">
-              <li class="nav-item">
-                <a
-                  class="nav-link border-bottom"
-                  href="https://www.youtube.com/watch?v=e1dHhktFLPs"
-                  >Trailer</a
-                >
+              <li class="nav-item ">
+                <a class="nav-link border-bottom" href="https://www.youtube.com/watch?v=e1dHhktFLPs">Trailer</a>
               </li>
               <li class="nav-item">
-                <a
-                  class="nav-link border-bottom"
-                  href="https://www.youtube.com/watch?v=mCi16bACI-E"
-                  >The Beauty Of</a
-                >
+                <a class="nav-link border-bottom" href="https://www.youtube.com/watch?v=mCi16bACI-E">The Beauty Of</a>
               </li>
               <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="https://www.hotstar.com/in/movies/tron-legacy/1260018669"
-                  >Watch on Disney+</a
-                >
+                <a class="nav-link" href="https://www.hotstar.com/in/movies/tron-legacy/1260018669">Watch on Disney+</a>
               </li>
             </ul>
           </div>
         </div>
 
+<!-- Content -->
         <div class="col-lg-8 my-1">
-          <div class="row">
-            <section class="d-flex">
-              <div class="col-lg-auto m-5"> <div class="card m-auto">
-                <img
-                  src="cast-img/jeff_bridges.jpg"
-                  alt=""
-                  class="card-img img-fluid"
-                  height="200px"
-                  width="200px"
-                />
-                <h5 class="card-title">Jeff Bridges</h5>
-              </div>
+          <section>
+            <div class="container-fluid rounded d-sm-flex align-items-center bg-tron-dark px-3 py-3 justify-content-center">
+              <img
+                src="https://images.fanart.tv/fanart/tron-legacy-5053c06bd04fb.jpg"
+                alt="TRON"
+                class="banimage img-fluid mx-auto d-block img-thumbnail"
+              />
+              <p class="text-white px-1 px-lg-3">
+                TRON: Legacy is a 2010 American
+                science fiction action film directed by Joseph Kosinski (in his
+                feature directorial debut) and written by Adam Horowitz and
+                Edward Kitsis, from a story by Horowitz, Kitsis, Brian Klugman,
+                and Lee Sternthal. It serves as a sequel to Tron (1982), whose
+                director Steven Lisberger returned to produce. The cast includes
+                Jeff Bridges and Bruce Boxleitner reprising their roles as Kevin
+                Flynn and Alan Bradley, respectively, as well as Garrett
+                Hedlund, Olivia Wilde, James Frain, Beau Garrett and Michael
+                Sheen.
+              </p>
             </div>
-             <div class="col-lg-auto m-5">
-              <div class="card m-auto bg-dark text-bg-dark">
-                <img
-                  src="cast-img/garett_hedlund.jpg"
-                  alt=""
-                  class="card-img img-fluid"
-                  height="200px"
-                  width="200px"
-                />
-                <h5 class="card-title">Garett Hedlund</h5>
-              </div>
-             </div>
-              <div class="col-lg-auto m-5">
-                <div class="card m-auto">
-                  <img
-                    src="cast-img/olivia_wilde.jpg"
-                    alt=""
-                    class="card-img img-fluid"
-                    height="200px"
-                    width="200px"
-                  />
-                  <h5 class="card-title">Olivia Wilde</h5>
-                </div>
-              </div>
-             
-            </section>
-          </div>
-          <div class="row mt-5">
-            <section class="d-flex">
-              <div class="card m-auto">
-                <img
-                  src="cast-img/beau_garett.jpg"
-                  alt=""
-                  class="card-img"
-                  height="200px"
-                  width="200px"
-                />
-                <h5 class="card-title">Beau Garett</h5>
-              </div>
-              <div class="card m-auto">
-                <img
-                  src="cast-img/michael_sheen.jpg"
-                  alt=""
-                  class="card-img"
-                  height="200px"
-                  width="100px"
-                />
-                <h5 class="card-title">Michael Sheen</h5>
-              </div>
-              <div class="card m-auto">
-                <img
-                  src="cast-img/bruce_boxleitner.jpg"
-                  alt=""
-                  class="card-img"
-                  height="200px"
-                  width="200px"
-                />
-                <h5 class="card-title">Bruce Boxleitner</h5>
-              </div>
-            </section>
-          </div>
-          <div class="row mt-5">
-            <section class="d-flex">
-              <div class="card m-auto">
-                <img
-                  src=""
-                  alt=""
-                  class="card-img"
-                  height="200px"
-                  width="200px"
-                />
-                <h5 class="card-title">Russell</h5>
-              </div>
-              <div class="card m-auto">
-                <img
-                  src=""
-                  alt=""
-                  class="card-img"
-                  height="200px"
-                  width="200px"
-                />
-                <h5 class="card-title">Russell</h5>
-              </div>
-              <div class="card m-auto">
-                <img
-                  src=""
-                  alt=""
-                  class="card-img"
-                  height="200px"
-                  width="200px"
-                />
-                <h5 class="card-title">Russell</h5>
-              </div>
-            </section>
-          </div>
+            <div class="container-fluid rounded align-items-center bg-tron-dark px-3 py-3  my-1 my-lg-2">
+              <h>PLOT</h>
+              <p class="text-white">
+                At the peak of his brilliant career, the ingenious computer
+                programmer, Kevin Flynn, mysteriously disappears, leaving behind
+                his wide-eyed only son, Sam. Now, almost two decades later,
+                things will take a turn for the unexpected, when a baffling
+                message from an improbable sender transports a disillusioned and
+                rebellious Sam into his father's digital creation ruled by Clu,
+                Kevin's tyrannical doppelgänger. Undoubtedly, in this vast and
+                dangerous electronic universe, Quorra--a brave and unyielding
+                survivor--is Sam's only ally; however, can two small-scale
+                programs alone beat the all-powerful Clu at his own game, and
+                get out of the Grid in one piece?
+              </p>
+            </div>
+          </section>
         </div>
 
-        <div class="col-lg-2 bg-tron-dark rounded h-100 nav-font">
-          <h2 class="text-center text-white">MORE</h2>
-          <div
-            class="mx-auto my-5 mt-auto side-bar container rounded bg-tron-light"
-          >
+<!-- Secondary Navigation #2 -->
+        <div class="col-lg-2 sidecol bg-tron-dark rounded nav-font align-items-center d-flex py-5">
+          <div class="mx-auto my-auto mt-auto side-bar container rounded bg-tron-light ">
             <ul class="navbar-nav text-center text-white">
               <li class="nav-item border-bottom">
-                <a
-                  class="nav-link"
-                  href="https://en.wikipedia.org/wiki/Tron:_Legacy"
-                  >Wikipedia</a
-                >
+                <a class="nav-link " href="https://en.wikipedia.org/wiki/Tron:_Legacy">Wikipedia</a>
               </li>
               <li class="nav-item border-bottom">
-                <a class="nav-link" href="https://www.imdb.com/title/tt1104001/"
-                  >IMdb</a
-                >
+                <a class="nav-link" href="https://www.imdb.com/title/tt1104001/">IMdb</a>
               </li>
               <li class="nav-item border-bottom">
-                <a
-                  class="nav-link"
-                  href="https://tron.fandom.com/wiki/Tron_Wiki"
-                  >Fandom</a
-                >
+                <a class="nav-link" href="https://tron.fandom.com/wiki/Tron_Wiki">Fandom</a>
               </li>
               <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="https://www.rottentomatoes.com/m/10011582-tron_legacy"
-                  >RottenTomatoes</a
-                >
+                <a class="nav-link" href="https://www.rottentomatoes.com/m/10011582-tron_legacy">RottenTomatoes</a>
               </li>
             </ul>
           </div>
         </div>
-      </div>
+  
     </main>
 
-    <footer class="">
-      <div class="container-fluid ft">
-        <p>
-          Author : Nithin S<br />© 2010 Walt Disney Prodcutions<br />
+    <footer>
+      <div class="container-fluid ft ">
+        <p>Author : Nithin S<br>© 2010 Walt Disney Prodcutions<br>
           <a href="https://www.fanart.tv/">Images from fanart.tv</a>
         </p>
       </div>
